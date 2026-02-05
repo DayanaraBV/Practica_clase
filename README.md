@@ -1,12 +1,62 @@
-# React + Vite
+# 🐱 MiauPic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desplegado en Netlify: https://miaupic.netlify.app/
 
-Currently, two official plugins are available:
+Este proyecto fue creado durante una práctica para enseñar a los chicos de Admisiones de Kokoa cómo consumir una API desde una aplicación web. MiauPic permite visualizar contenido dinámico obtenido de una fuente de datos externa.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Descripción
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+MiauPic es una aplicación web construida con **React + Vite** que demuestra:
+
+- Consumo de una API externa para obtener datos dinámicos
+- Construcción de componentes reutilizables
+- Manejo de estados y efectos con React
+- Despliegue en producción con Netlify
+
+La aplicación fue diseñada para ser sencilla pero efectiva para comprender cómo integrar una API en un proyecto real.
+
+---
+
+## 🧠 Tecnologías Utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📁 Estructura del Proyecto
+
+```bash
+Practica_clase/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+instalacion_y_ejecucion_local:
+  - paso: Clonar el repositorio
+    comando: git clone https://github.com/DayanaraBV/Practica_clase.git
+
+  - paso: Entrar al directorio del proyecto
+    comando: cd Practica_clase
+
+  - paso: Instalar dependencias
+    comando: npm install
+
+  - paso: Ejecutar aplicación en modo desarrollo
+    comando: npm run dev
+
+  - paso: Abrir en el navegador
+    url: http://localhost:5173
